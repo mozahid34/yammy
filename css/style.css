@@ -1,0 +1,28 @@
+/* common css */
+body {
+    color: gray;
+}
+
+
+
+/* ------------------------- */
+
+.hero  {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.font1 {
+    font-family: 'Pacifico', cursive;
+
+}
+.cnt1 {
+    padding-right: 200px;
+}
+
+.cnt2 {
+    margin: auto;
+    margin-left: 250px;
+}
