@@ -1,6 +1,17 @@
+
+
 /* common css */
 body {
     color: gray;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+a {
+    text-decoration: none;
+    
 }
 
 
@@ -12,17 +23,153 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #EEEFEF;
     
 }
-.font1 {
-    font-family: 'Pacifico', cursive;
+.font1  {
+    font-family: 'Amatic SC', cursive;
+    color: #37373F;
+    font-size: 64px;
 
 }
 .cnt1 {
-    padding-right: 200px;
+    
+    width: 40%;
+    overflow: hidden;
 }
 
 .cnt2 {
     margin: auto;
     margin-left: 250px;
+    
+}
+
+.btn-tbl {
+    background-color: #CE1313;
+    border: 0px;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: large;
+    
+}
+
+.btn-tbl a {
+    color: #EEEFEF;
+}
+.btn-vid {
+    
+    border: 0px;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: large;
+
+}
+.btn-vid img {
+    vertical-align: baseline;
+    width: 30px;
+    height: 25px;
+}
+
+/* CSS for About Us section */
+.abt-str {
+    
+
+}
+.lern-abt {
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+}
+.red {
+    color: #CE1313;
+}
+.abt-prt {
+    display: flex;
+    /* align-items: center; */
+    
+}
+.abt-book {
+    background-image: url("/img/large.jpg");
+    position: relative;
+    width: 250%;
+    height: 665px;
+ 
+
+    
+
+}
+.book-tbl {
+    background-color: #EEEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60%;
+    margin-left: 20%;
+    position: absolute;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.call {
+    color: #CE1313;
+}
+
+.abt-li {
+    margin-left: 5px;
+    padding-left: 25px;
+}
+
+/* CSS for Why WE */
+.why {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.box-main {
+    width: 30%;
+    color: #EEEFEF;
+    padding: 20px;
+    background-color: #CE1313;
+}
+.btn-lrn {
+    border-radius: 25px;
+    border: 0px;
+    background-color: rgb(223, 93, 93);
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.btn-lrn a {
+    color: #1b1f1f;
+}
+.btn-lrn:hover {
+    background-color: #EEEFEF;
+}
+.box1 {
+    width: 20%;
+    padding: 25px;
+}
+.box2 {
+    width: 20%;
+    padding: 25px;
+}
+.box3 {
+    width: 20%;
+    padding: 25px;
+}
+.box1:hover {
+    
+    transform: scale(1.1);
+}
+.box2:hover {
+    
+    transform: scale(1.1);
+}
+.box3:hover {
+    
+    transform: scale(1.1);
 }
