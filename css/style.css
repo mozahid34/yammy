@@ -58,6 +58,9 @@ a {
 .btn-tbl a {
     color: #EEEFEF;
 }
+.btn-tbl:hover {
+    background-color:rgb(223, 93, 93);
+}
 .btn-vid {
     
     border: 0px;
@@ -75,10 +78,6 @@ a {
 }
 
 /* CSS for About Us section */
-.abt-str {
-    
-
-}
 .lern-abt {
     font-family: 'Amatic SC', cursive;
     font-size: 48px;
@@ -124,12 +123,14 @@ a {
 
 /* CSS for Why WE */
 .why {
+    background-color: #EEEFEF;
     margin-top: 25px;
+    padding: 5%;
     display: flex;
     justify-content: space-around;
 }
 .box-main {
-    width: 30%;
+    width: 25%;
     color: #EEEFEF;
     padding: 20px;
     background-color: #CE1313;
@@ -149,27 +150,105 @@ a {
 .btn-lrn:hover {
     background-color: #EEEFEF;
 }
-.box1 {
+.box {
+    margin: 2%;
+    background-color: #FFFFFF;
     width: 20%;
     padding: 25px;
+    transition: transform 0.3s;
+   
 }
-.box2 {
-    width: 20%;
-    padding: 25px;
-}
-.box3 {
-    width: 20%;
-    padding: 25px;
-}
-.box1:hover {
-    
+.box:hover {
     transform: scale(1.1);
 }
-.box2:hover {
-    
-    transform: scale(1.1);
+/* CSS for Menu */
+.row1 {
+    display: flex;
+    justify-content: space-around;
+
 }
-.box3:hover {
+.row2 {
+    display: flex;
+    justify-content: space-around;
+}
+.dish {
+    width: 30%;
+}
+/* CSS for Event */
+
+.event {
+    display: flex;
+    background-color: black;
+}
+.des1 {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 80%;
+    box-shadow: ;
+   color: black;
+   background-color: #FFFFFF;
+   box-shadow: 2px 5px black;
+    border-radius: 10px;
+}
+.des2 {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 5px black;
+    border-radius: 10px;
     
+    margin-top: 91%;
+   color: black;
+   background-color: #FFFFFF;
+}
+.des3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 84%;
+   color: black;
+   background-color: #FFFFFF;
+   box-shadow: 2px 5px black;
+    border-radius: 10px;
+}
+.bg1 {
+    
+   
+    background-image: url("/img/event/Garden_birthday_party_decoration_by_aicaevents_TPG1closeup.jpg");
+    
+    height: 500px;
+}
+.bg2 {
+    
+    background-image: url("/img/event/images.jfif");
+    height: 500px;
+}
+.bg3 {
+    
+    background-image: url("/img/event/photo-1530103862676-de8c9debad1d.jfif");
+    height: 500px;
+   
+}
+
+/* CSS for OUR CHEEFS */
+.cheefs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #EEEFEF;
+    padding: 5%;
+}
+
+.cheef {
+    margin-left: 30px;
+    padding: 8px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background-color: #FFFFFF;
+}
+.cheef:hover {
     transform: scale(1.1);
 }
