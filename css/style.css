@@ -283,9 +283,6 @@ a {
     padding: 2%;
     transition: transform 0.2s;
 }
-.input:hover {
-    transform: scale(1.1);
-}
 .rowf2 {
     display: flex;
     justify-content: flex-start;
@@ -314,6 +311,10 @@ a {
 }
 
 /* CSS for Gallery */
+.gallary-container {
+    background-color: #EEEFEF;
+    padding:5% ;
+}
 .gallary {
     display: flex;
     flex-direction: column;
@@ -335,4 +336,41 @@ a {
     display: flex;
     justify-content: center;
    
+}
+/* map */
+.contact-con {
+    padding: 5%;
+}
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.in1 {
+    width: 35%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.frm-flex {
+    display: flex;
+}
+.sub {
+    width: 88%;
+}
+.send {
+    background: 0;
+}
+
+
+/* Footer CSS */
+.footer-con {
+    
+    margin: 0;
+    background-color: #1F1F24 ;
+    color: #FFFFFF;
+    padding: 5%;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
 }
